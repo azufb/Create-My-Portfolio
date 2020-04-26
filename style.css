@@ -26,3 +26,8 @@ a:hover {
 a:active {
         color: #ff6a3b;
 }
+/* profile.htmlに関して */
+.profile-photo {
+        float: left;
+        padding: 0 1em 1em 0;
+}
