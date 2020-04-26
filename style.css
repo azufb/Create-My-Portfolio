@@ -11,3 +11,6 @@ h2 {
         font-size: 22px;
         border-bottom: 3px solid #3f5170
 }
+p {
+        line-height: 1.6;
+}
