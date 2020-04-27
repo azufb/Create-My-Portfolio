@@ -24,7 +24,12 @@ a:hover {
         color: #e3937a;
 }
 a:active {
-        color: #ff6a3b;
+        color: #ff6a3b; 
+}
+.nav li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 80px;
 }
 /* profile.htmlに関して */
 .profile-photo {
