@@ -6,6 +6,9 @@ html {
 body {
         background-color: #ffdbdb;
 }
+h1 {
+        color: #3f5170;
+}
 h2 {
         color: #3f5170;
         font-size: 22px;
