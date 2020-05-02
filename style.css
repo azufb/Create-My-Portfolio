@@ -9,6 +9,9 @@ body {
 h1 {
         color: #3f5170;
 }
+.title {
+        text-align: center;
+}
 h2 {
         color: #3f5170;
         font-size: 22px;
@@ -34,8 +37,145 @@ a:active {
         list-style-type: none;
         padding-right: 80px;
 }
+#news-block {
+        width: 1300px;
+        float: right
+}
+#news-text {
+        width: 1300px;
+        float: right
+}
+#side1 {
+        width: 180px;
+        list-style-type: none;
+        float: left
+}
 /* profile.htmlに関して */
-.profile-photo {
-        float: left;
-        padding: 0 1em 1em 0;
+
+#profile {
+        width: 1300px;
+        float: right
+}
+#keireki {
+        width: 1300px;
+        float: right
+}
+#profile-photo {
+        width: 1300px;
+        float: right
+}
+#keireki-text1 {
+        width: 1300px;
+        float: right
+}
+#keireki-text2 {
+        width: 1300px;
+        float: right
+}
+#keireki-text3 {
+        width: 1300px;
+        float: right
+}
+#keireki-text4 {
+        width: 1300px;
+        float: right
+}
+#side2 {
+        width: 180px;
+        list-style-type: none;
+        float: left
+}
+#profile2 {
+        width: 1300px;
+        float: right
+}
+#goaisatsu {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text1 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text2 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text3 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text4 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text5 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text6 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text7 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text8 {
+        width: 1300px;
+        float: right
+}
+#aisatsu-text9 {
+        width: 1300px;
+        float: right
+}
+#side3 {
+        width: 180px;
+        list-style-type: none;
+        float: left
+}
+#profile3 {
+        width: 1300px;
+        float: right
+}
+#shikaku {
+        width: 1300px;
+        float: right
+}
+#it {
+        width: 1300px;
+        float: right
+}
+#shikaku-nav-it {
+        width: 1300px;
+        float: right
+}
+#hoka {
+        width: 1300px;
+        float: right
+}
+#shikaku-nav-hoka {
+        width: 1300px;
+        float: right
+}
+#shikaku-text1 {
+        width: 1300px;
+        float: right
+}
+#shikaku-text2 {
+        width: 1300px;
+        float: right
+}
+#shikaku-text3 {
+        width: 1300px;
+        float: right
+}
+#side4 {
+        width: 180px;
+        list-style-type: none;
+        float: left
+}
+#mywork {
+        width: 1300px;
+        float: right
 }
