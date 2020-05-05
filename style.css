@@ -36,6 +36,12 @@ a:active {
         display: inline;
         list-style-type: none;
         padding-right: 80px;
+        margin: 32px;
+}
+.side1 {
+        width: 180px;
+        list-style-type: none;
+        float: left
 }
 #news-block {
         width: 1300px;
@@ -45,45 +51,28 @@ a:active {
         width: 1300px;
         float: right
 }
-#side1 {
-        width: 180px;
-        list-style-type: none;
-        float: left
-}
 /* profile.htmlに関して */
-
-#profile {
-        width: 1300px;
-        float: right
+.flexbox {
+        display: -webkit-flex;
+        display: flex;
 }
-#keireki {
-        width: 1300px;
-        float: right
-}
-#profile-photo {
-        width: 1300px;
-        float: right
-}
-#keireki-text1 {
-        width: 1300px;
-        float: right
-}
-#keireki-text2 {
-        width: 1300px;
-        float: right
-}
-#keireki-text3 {
-        width: 1300px;
-        float: right
-}
-#keireki-text4 {
-        width: 1300px;
-        float: right
-}
-#side2 {
+.side2 {
         width: 180px;
         list-style-type: none;
-        float: left
+        float: left;
+}
+.profile {
+        margin: 0 10px;
+        flex: 2;
+}
+.keireki-text {
+        width: 1300px;
+        float:light;
+}
+.side3 {
+        width: 180px;
+        list-style-type: none;
+        float: left;
 }
 #profile2 {
         width: 1300px;
@@ -129,7 +118,7 @@ a:active {
         width: 1300px;
         float: right
 }
-#side3 {
+.side4 {
         width: 180px;
         list-style-type: none;
         float: left
@@ -169,11 +158,6 @@ a:active {
 #shikaku-text3 {
         width: 1300px;
         float: right
-}
-#side4 {
-        width: 180px;
-        list-style-type: none;
-        float: left
 }
 #mywork {
         width: 1300px;
