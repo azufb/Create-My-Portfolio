@@ -52,7 +52,6 @@ a:active {
 .nav ul {
         display: block;
         text-align: center;
-        margin: 20px;
 }
 .nav li {
         display: inline-block;
@@ -82,7 +81,6 @@ a:active {
 }
 .profile {
         width: 1250px;
-        margin-top: 20px;
         float: right;
 }
 .keireki-text {
