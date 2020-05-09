@@ -25,6 +25,9 @@ h1 {
 .title {
         text-align: center;
         color: #3f5170;
+        background-color: #ffb3b3;
+        height: 95px;
+        padding-top: 50px;
 }
 h2 {
         color: #3f5170;
@@ -49,15 +52,16 @@ a:active {
 .nav ul {
         display: block;
         text-align: center;
+        margin: 20px;
 }
 .nav li {
         display: inline-block;
         list-style-type: none;
         padding-right: 80px;
-        margin: 32px;
 }
 .side {
         width: 170px;
+        margin-top: 20px;
         list-style-type: none;
         padding-inline-start: 20px;
         float: left;
@@ -78,6 +82,7 @@ a:active {
 }
 .profile {
         width: 1250px;
+        margin-top: 20px;
         float: right;
 }
 .keireki-text {
