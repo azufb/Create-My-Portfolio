@@ -79,7 +79,15 @@ a:active {
         width: 100%;
         height: 50px; 
 }
-.colum-block {
+.column-block {
+        width: 1250px;
+        float: right;
+}
+.column {
+        width: 1250px;
+        float: right;
+}
+.column-title {
         width: 1250px;
         float: right;
 }
