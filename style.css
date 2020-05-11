@@ -78,25 +78,12 @@ a:active {
         width: 100%;
         height: 38px; 
 }
-.blog-block {
+.sns {
         width: 1250px;
         float: right;
 }
-.blog {
+.sns-text {
         width: 1250px;
-        float: right;
-}
-.blog-title {
-        width: 1250px;
-        float: right;
-}
-.blog-explain {
-        width: 1250px;
-        float: right;
-}
-.blog-text {
-        width: 1250px;
-        height: 14px;
         float: right;
 }
 .profile {
@@ -138,16 +125,6 @@ a:active {
         border-collapse: collapse;
 }
 .work td {
-        padding: 10px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        border: 2px solid #000000;
-        text-align: center;
-}
-.blog {
-        border-collapse: collapse;
-}
-.blog td {
         padding: 10px;
         padding-top: 4px;
         padding-bottom: 4px;
