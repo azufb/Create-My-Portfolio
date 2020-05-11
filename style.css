@@ -10,13 +10,12 @@ body {
         background-color: #ffdbdb;
 }
 .body {
-        height: 100%;
+        height: auto;
 }
 .container {
         width: 100%;
         position: relative;
-        height: auto !important;
-        height: 100%;
+        height: auto;
         min-height: 100%;
 }
 h1 {
@@ -77,7 +76,7 @@ a:active {
         position: fixed;
         bottom: 0;
         width: 100%;
-        height: 50px; 
+        height: 38px; 
 }
 .column-block {
         width: 1250px;
@@ -93,6 +92,7 @@ a:active {
 }
 .column-text {
         width: 1250px;
+        height: 14px;
         float: right;
 }
 .profile {
@@ -101,10 +101,12 @@ a:active {
 }
 .keireki-text {
         width: 1250px;
+        height: 14px;
         float: right;
 }
 .aisatsu-text {
         width: 1250px;
+        height: 14px;
         float: right;
 }
 .shikaku-nav-it {
@@ -121,6 +123,7 @@ a:active {
 }
 .shikaku-text {
         width: 1250px;
+        height: 14px;
         float: right
 }
 .seisakubutsu {
@@ -131,6 +134,16 @@ a:active {
         border-collapse: collapse;
 }
 .work td {
+        padding: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 2px solid #000000;
+        text-align: center;
+}
+.column {
+        border-collapse: collapse;
+}
+.column td {
         padding: 10px;
         padding-top: 4px;
         padding-bottom: 4px;
