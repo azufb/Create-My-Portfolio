@@ -78,19 +78,23 @@ a:active {
         width: 100%;
         height: 38px; 
 }
-.column-block {
+.blog-block {
         width: 1250px;
         float: right;
 }
-.column {
+.blog {
         width: 1250px;
         float: right;
 }
-.column-title {
+.blog-title {
         width: 1250px;
         float: right;
 }
-.column-text {
+.blog-explain {
+        width: 1250px;
+        float: right;
+}
+.blog-text {
         width: 1250px;
         height: 14px;
         float: right;
@@ -140,10 +144,10 @@ a:active {
         border: 2px solid #000000;
         text-align: center;
 }
-.column {
+.blog {
         border-collapse: collapse;
 }
-.column td {
+.blog td {
         padding: 10px;
         padding-top: 4px;
         padding-bottom: 4px;
