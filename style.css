@@ -20,6 +20,8 @@ body {
 }
 h1 {
         color: #223170;
+        font-family: Monotype Corsiva,sans-serif;
+        font-size: 50px;
 }
 .title {
         text-align: center;
@@ -29,6 +31,7 @@ h1 {
 }
 h2 {
         color: #223170;
+        font-family: Monotype Corsiva,sans-serif;
         font-size: 22px;
         border-bottom: 3px solid #223170
 }
@@ -36,10 +39,10 @@ p {
         line-height: 1.6;
 }
 a:link {
-        color: #ff6666;
+        color: #4da6ff;
 }
 a:visited {
-        color: #4da6ff;
+        color: #ff6666;
 }
 a:hover {
         color: #ff9999;
