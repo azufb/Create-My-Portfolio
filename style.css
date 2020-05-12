@@ -19,34 +19,33 @@ body {
         min-height: 100%;
 }
 h1 {
-        color: #3f5170;
+        color: #223170;
 }
 .title {
         text-align: center;
-        color: #3f5170;
         background-color: #ffb3b3;
         height: 95px;
         padding-top: 50px;
 }
 h2 {
-        color: #3f5170;
+        color: #223170;
         font-size: 22px;
-        border-bottom: 3px solid #3f5170
+        border-bottom: 3px solid #223170
 }
 p {
         line-height: 1.6;
 }
 a:link {
-        color: #d25833;
+        color: #ff6666;
 }
 a:visited {
-        color: #d25833;
+        color: #4da6ff;
 }
 a:hover {
-        color: #e3937a;
+        color: #ff9999;
 }
 a:active {
-        color: #d25833; 
+        color: #99ccff; 
 }
 .nav ul {
         display: block;
