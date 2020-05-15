@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html class="html">
+<html>
     <head>
         <meta charset="UTF-8">
         <title>My Work Page</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="body">
+    <body>
         <div class="container">
             <header class="header">
                 <h1 class="title">Azusa's Portfolio</h1>
@@ -18,34 +18,36 @@
                 </ul>
             </nav>
             <main>
-                <div class="side">
-                    <ul>
-                        <li type="none"><a href="mywork.html">制作物</a></li>
-                        <li type="none"><a href="kentouchu.html">制作検討中</a></li>
-                    </ul>
+                <div class="main-block">
+                    <div class="side">
+                        <ul>
+                            <li type="none"><a href="mywork.html">制作物</a></li>
+                            <li type="none"><a href="kentouchu.html">制作検討中</a></li>
+                        </ul>
+                    </div>
+                    <section class="seisakubutsu">
+                        <h2>My Work</h2>
+                        <h3>制作検討中のもの</h3>
+                            <p>まだまだ検討・構想段階の作品を一覧表にして掲載しております。</p>
+                        <table class="work">
+                            <tr>
+                                <th bgcolor="#ffb3b3">検討段階の作品名</th>
+                                <th bgcolor="#ffb3b3">内容</th>
+                                <th bgcolor="#ffb3b3">使用予定言語・ツール</th>
+                            </tr>
+                            <tr>
+                                <td><strong>(名称未定)</strong></td>
+                                <td>RSSリーダー。興味があるサイトの更新情報をまとめてチェック！</td>
+                                <td>Rails(またはJavaScript)・GitHub</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Hi bot!(仮)</strong></td>
+                                <td>オリジナルLINE botです。Push通知で生活のメリハリ付けの助けになるツール。</td>
+                                <td>Sinatra・Ruby・GitHub</td>
+                            </tr>
+                        </table>
+                    </section>
                 </div>
-            <section class="seisakubutsu">
-                <h2>My Work</h2>
-                    <h3>制作検討中のもの</h3>
-                        <p>まだまだ検討・構想段階の作品を一覧表にして掲載しております。</p>
-            <table class="work">
-                <tr>
-                    <th bgcolor="#ffb3b3">検討段階の作品名</th>
-                    <th bgcolor="#ffb3b3">内容</th>
-                    <th bgcolor="#ffb3b3">使用予定言語・ツール</th>
-                </tr>
-                <tr>
-                    <td><strong>(名称未定)</strong></td>
-                    <td>RSSリーダー。興味があるサイトの更新情報をまとめてチェック！</td>
-                    <td>Rails(またはJavaScript)・GitHub</td>
-                </tr>
-                <tr>
-                    <td><strong>Hi bot!(仮)</strong></td>
-                    <td>オリジナルLINE botです。Push通知で生活のメリハリ付けの助けになるツール。</td>
-                    <td>Sinatra・Ruby・GitHub</td>
-                </tr>
-            </table>
-            </section>
             </main>
             <footer class="footer">
                 <p>&copy;Copyright Azusa Okamoto.All Rights Reserved.</p>
@@ -53,3 +55,4 @@
         </div>
     </body>
 </html>
+
