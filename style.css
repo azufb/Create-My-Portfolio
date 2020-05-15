@@ -2,14 +2,10 @@
 
 html {
         font-family: sans-serif;
-}
-.html {
         height: 100%;
 }
 body {
         background-color: #ffdbdb;
-}
-.body {
         height: auto;
 }
 .container {
@@ -59,69 +55,32 @@ a:active {
         list-style-type: none;
         padding-right: 80px;
 }
-.side {
-        width: 170px;
-        margin-top: 20px;
-        list-style-type: none;
-        padding-inline-start: 20px;
-        float: left;
-}
-.news-block {
-        width: 1250px;
-        float: right
-}
-.news-text {
-        width: 1250px;
-        float: right
-}
 .footer {
         position: fixed;
         bottom: 0;
         width: 100%;
         height: 38px; 
 }
-.sns {
-        width: 1250px;
-        float: right;
+/* floatではなく、flexboxに変更。 */
+.main-block {
+        display: flex;
+        padding: 20px 8px;
 }
-.sns-text {
-        width: 1250px;
-        float: right;
+.side {
+        margin-right: 16px;
+        flex: 1 1 auto;
+}
+.news-text {
+        flex: 0 0 1250px;
+}
+.sns {
+        flex: 0 0 1250px;
 }
 .profile {
-        width: 1250px;
-        float: right;
-}
-.keireki-text {
-        width: 1250px;
-        height: 14px;
-        float: right;
-}
-.aisatsu-text {
-        width: 1250px;
-        height: 14px;
-        float: right;
-}
-.shikaku-nav-it {
-        width: 1250px;
-        float: right
-}
-.hoka {
-        width: 1250px;
-        float: right
-}
-.shikaku-nav-hoka {
-        width: 1250px;
-        float: right
-}
-.shikaku-text {
-        width: 1250px;
-        height: 14px;
-        float: right
+        flex: 0 0 1250px;
 }
 .seisakubutsu {
-        width: 1250px;
-        float: right;
+        flex: 0 0 1250px;
 }
 .work {
         border-collapse: collapse;
