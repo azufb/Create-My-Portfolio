@@ -50,7 +50,7 @@ a:active {
         display: block;
         list-style-type: none;
         text-align: center;
-        font-size: 4;
+        font-size: 20px;
 }
 .nav li {
         display: inline-block;
@@ -71,19 +71,26 @@ a:active {
         margin-right: 16px;
         flex: 1 1 auto;
 }
-.side-nav {
+.side ul {
         list-style-type: none;
+        padding-left: 0;
 }
 .news-text {
         flex: 0 0 1250px;
 }
 .sns {
         flex: 0 0 1250px;
+}
+.sns-nav li {
         list-style-type: none;
-        font-size: 6;
+        padding-left: 0;
+        font-size: 25px;
 }
 .profile {
         flex: 0 0 1250px;
+}
+.p-name {
+        font-weight: bold;
 }
 .seisakubutsu {
         flex: 0 0 1250px;
@@ -91,11 +98,17 @@ a:active {
 .work {
         border-collapse: collapse;
 }
+.work th {
+        background-color: #ffb3b3;
+}
 .work td {
         padding: 10px;
         padding-top: 4px;
         padding-bottom: 4px;
         border: 2px solid #000000;
         text-align: center;
+}
+.td-title {
+        font-weight: bold;
 }
 
