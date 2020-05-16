@@ -48,11 +48,12 @@ a:active {
 }
 .nav ul {
         display: block;
+        list-style-type: none;
         text-align: center;
+        font-size: 4;
 }
 .nav li {
         display: inline-block;
-        list-style-type: none;
         padding-right: 80px;
 }
 .footer {
@@ -70,11 +71,16 @@ a:active {
         margin-right: 16px;
         flex: 1 1 auto;
 }
+.side-nav {
+        list-style-type: none;
+}
 .news-text {
         flex: 0 0 1250px;
 }
 .sns {
         flex: 0 0 1250px;
+        list-style-type: none;
+        font-size: 6;
 }
 .profile {
         flex: 0 0 1250px;
