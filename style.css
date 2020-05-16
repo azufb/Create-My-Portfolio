@@ -111,4 +111,31 @@ a:active {
 .td-title {
         font-weight: bold;
 }
-
+/* スマートフォン対応CSS */
+@media (max-width: 767px) {
+        .wrapper {
+                margin: 0 8px;
+        }
+        .nav li {
+                display: block;
+        }
+        .main-block {
+                display: block;
+        } /* フレックスボックス解除 */
+        .side {
+                margin-right: 0;
+                width: 100%;
+        }
+        .news-text {
+                width: 100%;
+        }
+        .sns {
+                width: 100%;
+        }
+        .profile {
+                width: 100%;
+        }
+        .seisakubutsu {
+                width: 100%;
+        }
+}
