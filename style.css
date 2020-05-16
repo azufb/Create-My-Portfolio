@@ -73,13 +73,13 @@ a:active {
 }
 .side ul {
         list-style-type: none;
-        padding-left: 0;
+        padding-left: 30px;
 }
 .news-text {
-        flex: 0 0 1250px;
+        flex: 0 0 1300px;
 }
 .sns {
-        flex: 0 0 1250px;
+        flex: 0 0 1300px;
 }
 .sns-nav li {
         list-style-type: none;
@@ -87,13 +87,13 @@ a:active {
         font-size: 25px;
 }
 .profile {
-        flex: 0 0 1250px;
+        flex: 0 0 1300px;
 }
 .p-name {
         font-weight: bold;
 }
 .seisakubutsu {
-        flex: 0 0 1250px;
+        flex: 0 0 1300px;
 }
 .work {
         border-collapse: collapse;
