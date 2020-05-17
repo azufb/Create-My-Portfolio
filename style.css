@@ -116,6 +116,10 @@ a:active {
         .wrapper {
                 margin: 0 8px;
         }
+        .title {
+                padding-top: 30px;
+                height: 120px;
+        }
         .nav li {
                 display: block;
         }
