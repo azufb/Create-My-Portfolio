@@ -61,6 +61,7 @@ a:active {
         bottom: 0;
         width: 100%;
         height: 38px; 
+        background-color: #ffb3b3;
 }
 /* floatではなく、flexboxに変更。 */
 .main-block {
