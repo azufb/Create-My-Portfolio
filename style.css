@@ -114,6 +114,9 @@ a:active {
 .p-aisatsu {
         padding-top: 10px;
 }
+.shikaku-nav li {
+        list-style: none;
+}
 .seisakubutsu {
         flex: 0 0 1300px;
 }
