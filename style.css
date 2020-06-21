@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
 html {
         font-family: sans-serif;
         height: 100%;
+        overflow: auto;
 }
 body {
         background-color: #ffdbdb;
         height: auto;
+        overflow: hidden;
 }
 .container {
         width: 100%;
@@ -59,8 +66,8 @@ a:active {
 .footer {
         position: fixed;
         bottom: 0;
-        width: 1308px;
-        height: 38px; 
+        width: 1324px;
+        height: 20px; 
         background-color: #ffb3b3;
 }
 /* floatではなく、flexboxに変更。 */
